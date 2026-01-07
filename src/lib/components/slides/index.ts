@@ -1,0 +1,13 @@
+export { default as IntroSlide } from './IntroSlide.svelte';
+export { default as PhotoSlide } from './PhotoSlide.svelte';
+export { default as GradesSlide } from './GradesSlide.svelte';
+export { default as GamingIntroSlide } from './GamingIntroSlide.svelte';
+export { default as SteamSlide } from './SteamSlide.svelte';
+export { default as DiscordSlide } from './DiscordSlide.svelte';
+export { default as SpotifySlide } from './SpotifySlide.svelte';
+export { default as RaycastSlide } from './RaycastSlide.svelte';
+export { default as CodingSlide } from './CodingSlide.svelte';
+export { default as ConclusionSlide } from './ConclusionSlide.svelte';
+export { default as ClaudeSlide } from './ClaudeSlide.svelte';
+export { default as AIAgentSlide } from './AIAgentSlide.svelte';
+export { default as AIMetaSlide } from './AIMetaSlide.svelte';

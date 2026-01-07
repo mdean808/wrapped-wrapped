@@ -1,0 +1,57 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Pastel palette */
+  --color-pastel-pink: #ffb6c1;
+  --color-pastel-blue: #add8e6;
+  --color-pastel-purple: #e6e6fa;
+  --color-pastel-green: #7dd87d;
+  --color-pastel-yellow: #fffacd;
+  --color-pastel-orange: #ffdab9;
+  --color-pastel-coral: #ffb7b2;
+  --color-pastel-cyan: #a0d4db;
+  --color-pastel-indigo: #c5cae9;
+  --color-pastel-lavender: #e1bee7;
+
+  /* Claude slide colors */
+  --color-claude-primary: #e07a5f;
+  --color-claude-secondary: #f4a261;
+  --color-claude-bg: #fef6f3;
+  --color-claude-border: #f4a26133;
+
+  /* AI Agent slide colors */
+  --color-agent-primary: #10b981;
+  --color-agent-secondary: #34d399;
+  --color-agent-bg: #f0fdf4;
+  --color-agent-border: #10b98133;
+
+  /* Typography */
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Custom animations */
+  --animate-gradient-shift: gradient-shift 8s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: var(--color-neutral-800);
+  color: var(--color-neutral-300);
+  font-family: var(--font-mono);
+}
