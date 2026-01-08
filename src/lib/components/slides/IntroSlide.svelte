@@ -18,7 +18,7 @@
 				class="m-0 text-5xl leading-tight font-bold text-pastel-purple"
 				in:fly={{ y: -50, duration: 800, delay: 200 }}
 			>
-				morgan's
+				my
 			</h1>
 			<h2
 				class="m-0 text-[5rem] font-semibold text-blue-500 capitalize"

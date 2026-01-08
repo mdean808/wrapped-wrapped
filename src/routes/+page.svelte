@@ -40,7 +40,7 @@
 </script>
 
 <svelte:head>
-  <title>morgan's wrapped wrapped | 2025</title>
+  <title>my wrapped wrapped | 2025</title>
 </svelte:head>
 
 <SlideContainer totalSlides={TOTAL_SLIDES}>
@@ -53,7 +53,7 @@
       active={currentSlide === 1}
       images={[firstImage]}
       layout="single"
-      header="what was morgan doing at the start of the year???"
+      header="what was i doing at the start of the year???"
       caption="backpacking in the valleys... taken jan 1 @ 4:29pm"
     />
 
@@ -74,9 +74,9 @@
       active={currentSlide === 6}
       images={[middleImage1, middleImage2]}
       layout="dual"
-      header="what was morgan doing in the middle of the year??"
+      header="what was i doing in the middle of the year??"
       captions={['jul 1 @ 7:29pm', 'jul 3 @ 7:58pm']}
-      caption="we get two photos b/c he has no photo from july 2 (the most middlest day of the year)"
+      caption="we get two photos b/c i have no photo from july 2 (the most middlest day of the year)"
     />
 
     <!-- Slide 8: Spotify -->
@@ -108,8 +108,8 @@
       active={currentSlide === 12}
       images={[lastImage]}
       layout="single"
-      header="what was morgan doing on the last day of the year??"
-      caption="apparently taking photos of his face, dec 31 @ 5:41pm"
+      header="what was i doing on the last day of the year??"
+      caption="apparently taking photos of my face, dec 31 @ 5:41pm"
     />
 
     <!-- Slide 14: Conclusion -->

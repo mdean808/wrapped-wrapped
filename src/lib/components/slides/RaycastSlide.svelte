@@ -22,7 +22,7 @@
       raycast
     </h1>
     <h2 class="mb-8 text-xl font-bold text-neutral-400" in:fade={{ duration: 400, delay: 200 }}>
-      apparently he's a "{data.personalityCard.toLowerCase()}"
+      apparently i'm a "{data.personalityCard.toLowerCase()}"
     </h2>
 
     <div class="grid max-w-5xl grid-cols-4 gap-4">

@@ -38,7 +38,7 @@
 		</h1>
 
 		<h2 class="mb-8 text-xl font-bold text-pastel-lavender">
-			they're calling him one of the academic weapons of all time
+			they're calling me one of the academic weapons of all time
 		</h2>
 
 		<div class="flex gap-16">
