@@ -9,9 +9,9 @@
 
   // Example data for the AI meta stats
   const aiStats = {
-    tokens: 150000,
-    cost: 4.5,
-    prompts: 47
+    tokens: 6_352_195,
+    cost: 37.42,
+    prompts: 361
   };
 </script>
 
@@ -22,7 +22,7 @@
   >
     <div
       class="absolute inset-0 animate-gradient-shift bg-size-[400%_400%]"
-      style="background-image: linear-gradient(135deg, #ff6b6b 0%, #feca57 15%, #48dbfb 30%, #ff9ff3 45%, #54a0ff 60%, #5f27cd 75%, #00d2d3 90%, #ff6b6b 100%)"
+      style="background-image: linear-gradient(135deg, #ff0000 0%, #ff7f00 14%, #ffff00 28%, #00ff00 42%, #0000ff 57%, #4b0082 71%, #9400d3 85%, #ff0000 100%)"
     ></div>
 
     <div class="relative z-10 text-center text-white [text-shadow:0_2px_10px_rgba(0,0,0,0.2)]">
@@ -33,7 +33,7 @@
         BY THE WAY
       </h1>
       <h2 class="mb-8 text-xl font-bold opacity-95" in:fade={{ duration: 400, delay: 200 }}>
-        i used ai in this presentation
+        i used ai to build this presentation
       </h2>
 
       <div class="flex justify-center gap-6" in:scale={{ duration: 500, delay: 400, start: 0.9 }}>

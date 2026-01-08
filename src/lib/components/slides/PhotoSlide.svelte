@@ -7,6 +7,7 @@
     active: boolean;
     images: string[];
     layout?: 'single' | 'dual';
+    header?: string;
     caption?: string;
     captions?: string[];
   }
@@ -15,6 +16,7 @@
     active,
     images,
     layout = 'single',
+    header,
     caption = 'Placeholder caption',
     captions = []
   }: Props = $props();
@@ -41,6 +43,9 @@
     class="flex h-full w-full flex-col items-center justify-center bg-neutral-800 p-8"
     transition:fade={{ duration: 300 }}
   >
+    {#if header}
+      <h2 class="mb-8 text-center text-2xl font-bold text-white">{header}</h2>
+    {/if}
     <div class="flex items-center justify-center {layout === 'dual' ? 'gap-12' : 'gap-8'}">
       {#each images as image, i (image)}
         <div

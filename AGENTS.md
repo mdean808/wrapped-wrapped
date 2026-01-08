@@ -18,6 +18,7 @@ and displays "wrapped" style statistics from various services (Spotify, Discord,
 **Requirements:**
 
 - Always use Tailwind CSS, unless better options are available, a task is impossible to do in Tailwind CSS, or instructed otherwise.
+- Always use lowercase on slides -- no uppercase letters.
 
 ## Build & Development Commands
 
